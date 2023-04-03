@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadComponent test should return upload component 1`] = `
+<div>
+  <div
+    class="upload-component"
+  >
+    <span
+      class="filename"
+    >
+      Please select file
+    </span>
+    <button
+      class="btn-upload"
+    >
+      <span>
+        Select File
+      </span>
+      <img
+        alt="Upload File"
+        src="upload.svg"
+      />
+    </button>
+    <input
+      hidden=""
+      type="file"
+    />
+  </div>
+</div>
+`;

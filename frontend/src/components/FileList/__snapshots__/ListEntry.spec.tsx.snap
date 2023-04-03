@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListEntry test should return Directory SnapShot 1`] = `
+<div>
+  <div
+    class="list-entry-wrapper"
+  >
+    <div
+      class="list-entry"
+    >
+      <img
+        alt="file"
+        src="folder.svg"
+      />
+      <span
+        class="entry-name"
+      >
+        SubDirectory
+      </span>
+    </div>
+    <button
+      class="delete-btn"
+    >
+      <img
+        alt="Delete"
+        src="trash.svg"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ListEntry test should return FileEntry SnapShot 1`] = `
+<div>
+  <div
+    class="list-entry-wrapper"
+  >
+    <div
+      class="list-entry"
+    >
+      <img
+        alt="folder"
+        src="file.svg"
+      />
+      <a
+        class="entry-name"
+        download=""
+        href="http://localhost:8080/api/file/download?path=/TestFile"
+      >
+        TestFile   11KB
+      </a>
+    </div>
+    <button
+      class="delete-btn"
+    >
+      <img
+        alt="Delete"
+        src="trash.svg"
+      />
+    </button>
+  </div>
+</div>
+`;
